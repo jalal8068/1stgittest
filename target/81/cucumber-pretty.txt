@@ -1,0 +1,47 @@
+@sample
+Feature: am going to validate NTL home page
+
+  Scenario Outline: validating NTL home page with various data [90m# home.feature:3[0m
+    [36mGiven [0m[36mopen browser as <BROWSER>[0m
+    [36mThen [0m[36menter URL as <URL>[0m
+    [36mThen [0m[36menter username as <USERNAME>[0m
+    [36mAnd [0m[36menter phonenumber as <PHONENUMBER>[0m
+    [36mWhen [0m[36mselect pickup address as <PICK>[0m
+    [36mThen [0m[36mselect drop address as <DROP>[0m
+    [36mAnd [0m[36mselect vehicle type as <VEHICLETYPE>[0m
+    [36mBut [0m[36mdont click book button[0m
+
+    Examples: 
+
+  @sample
+  Scenario Outline: validating NTL home page with various data [90m# home.feature:17[0m
+    [32mGiven [0m[32mopen browser as [0m[32m[1mFIREFOX[0m                              [90m# SampleTest.login(String)[0m
+    [32mThen [0m[32menter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m                  [90m# SampleTest.enterURL(String)[0m
+    [32mThen [0m[32menter username as [0m[32m[1mJalal[0m                               [90m# SampleTest.Enterusername(String)[0m
+    [32mAnd [0m[32menter phonenumber as [0m[32m[1m12345[0m                             [90m# SampleTest.enterphonenumber(String)[0m
+    [32mWhen [0m[32mselect pickup address as [0m[32m[1mADYAR[0m                        [90m# SampleTest.enterpickup(String)[0m
+    [32mThen [0m[32mselect drop address as [0m[32m[1mADYAR[0m                          [90m# SampleTest.enterdropaddress(String)[0m
+    [32mAnd [0m[32mselect vehicle type as [0m[32m[1mSedan[0m                           [90m# SampleTest.entervehicletype(String)[0m
+    [32mBut [0m[32mdont click book button[0m                                 [90m# SampleTest.dontclickbutton()[0m
+
+  @sample
+  Scenario Outline: validating NTL home page with various data [90m# home.feature:18[0m
+    [32mGiven [0m[32mopen browser as [0m[32m[1mFIREFOX[0m                              [90m# SampleTest.login(String)[0m
+    [32mThen [0m[32menter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m                  [90m# SampleTest.enterURL(String)[0m
+    [32mThen [0m[32menter username as [0m[32m[1mYuva[0m                                [90m# SampleTest.Enterusername(String)[0m
+    [32mAnd [0m[32menter phonenumber as [0m[32m[1m6789[0m                              [90m# SampleTest.enterphonenumber(String)[0m
+    [32mWhen [0m[32mselect pickup address as [0m[32m[1mADYAR[0m                        [90m# SampleTest.enterpickup(String)[0m
+    [32mThen [0m[32mselect drop address as [0m[32m[1mADYAR[0m                          [90m# SampleTest.enterdropaddress(String)[0m
+    [32mAnd [0m[32mselect vehicle type as [0m[32m[1mSedan[0m                           [90m# SampleTest.entervehicletype(String)[0m
+    [32mBut [0m[32mdont click book button[0m                                 [90m# SampleTest.dontclickbutton()[0m
+
+  @sample
+  Scenario Outline: validating NTL home page with various data [90m# home.feature:19[0m
+    [32mGiven [0m[32mopen browser as [0m[32m[1mFIREFOX[0m                              [90m# SampleTest.login(String)[0m
+    [32mThen [0m[32menter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m                  [90m# SampleTest.enterURL(String)[0m
+    [32mThen [0m[32menter username as [0m[32m[1mDinesh[0m                              [90m# SampleTest.Enterusername(String)[0m
+    [32mAnd [0m[32menter phonenumber as [0m[32m[1m55555[0m                             [90m# SampleTest.enterphonenumber(String)[0m
+    [32mWhen [0m[32mselect pickup address as [0m[32m[1mADYAR[0m                        [90m# SampleTest.enterpickup(String)[0m
+    [32mThen [0m[32mselect drop address as [0m[32m[1mADYAR[0m                          [90m# SampleTest.enterdropaddress(String)[0m
+    [32mAnd [0m[32mselect vehicle type as [0m[32m[1mSedan[0m                           [90m# SampleTest.entervehicletype(String)[0m
+    [32mBut [0m[32mdont click book button[0m                                 [90m# SampleTest.dontclickbutton()[0m

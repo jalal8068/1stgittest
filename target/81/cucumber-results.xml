@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="35.930462">
+<testcase classname="am going to validate NTL home page" name="validating NTL home page with various data" time="31.8847">
+<system-out><![CDATA[Given open browser as FIREFOX...............................................passed
+Then enter URL as http://www.ntltaxi.com/...................................passed
+Then enter username as Jalal................................................passed
+And enter phonenumber as 12345..............................................passed
+When select pickup address as ADYAR.........................................passed
+Then select drop address as ADYAR...........................................passed
+And select vehicle type as Sedan............................................passed
+But dont click book button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="am going to validate NTL home page" name="validating NTL home page with various data 2" time="2.139142">
+<system-out><![CDATA[Given open browser as FIREFOX...............................................passed
+Then enter URL as http://www.ntltaxi.com/...................................passed
+Then enter username as Yuva.................................................passed
+And enter phonenumber as 6789...............................................passed
+When select pickup address as ADYAR.........................................passed
+Then select drop address as ADYAR...........................................passed
+And select vehicle type as Sedan............................................passed
+But dont click book button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="am going to validate NTL home page" name="validating NTL home page with various data 3" time="1.90662">
+<system-out><![CDATA[Given open browser as FIREFOX...............................................passed
+Then enter URL as http://www.ntltaxi.com/...................................passed
+Then enter username as Dinesh...............................................passed
+And enter phonenumber as 55555..............................................passed
+When select pickup address as ADYAR.........................................passed
+Then select drop address as ADYAR...........................................passed
+And select vehicle type as Sedan............................................passed
+But dont click book button..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

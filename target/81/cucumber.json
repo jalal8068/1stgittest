@@ -1,0 +1,576 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 17,
+        "name": "validating NTL home page with various data",
+        "description": "",
+        "id": "am-going-to-validate-ntl-home-page;validating-ntl-home-page-with-various-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 405415,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9345827662,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser as FIREFOX",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FIREFOX",
+                  "offset": 16
+                }
+              ],
+              "location": "SampleTest.login(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20218597715,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter URL as http://www.ntltaxi.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.ntltaxi.com/",
+                  "offset": 13
+                }
+              ],
+              "location": "SampleTest.enterURL(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 848138915,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter username as Jalal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jalal",
+                  "offset": 18
+                }
+              ],
+              "location": "SampleTest.Enterusername(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266042463,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter phonenumber as 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 21
+                }
+              ],
+              "location": "SampleTest.enterphonenumber(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184767747,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select pickup address as ADYAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ADYAR",
+                  "offset": 25
+                }
+              ],
+              "location": "SampleTest.enterpickup(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339549279,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select drop address as ADYAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ADYAR",
+                  "offset": 23
+                }
+              ],
+              "location": "SampleTest.enterdropaddress(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 681273176,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select vehicle type as Sedan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sedan",
+                  "offset": 23
+                }
+              ],
+              "location": "SampleTest.entervehicletype(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97932,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "dont click book button",
+            "match": {
+              "location": "SampleTest.dontclickbutton()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sample"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "validating NTL home page with various data",
+        "description": "",
+        "id": "am-going-to-validate-ntl-home-page;validating-ntl-home-page-with-various-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 47470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 160370,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser as FIREFOX",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FIREFOX",
+                  "offset": 16
+                }
+              ],
+              "location": "SampleTest.login(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 620283782,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter URL as http://www.ntltaxi.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.ntltaxi.com/",
+                  "offset": 13
+                }
+              ],
+              "location": "SampleTest.enterURL(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194393803,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter username as Yuva",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yuva",
+                  "offset": 18
+                }
+              ],
+              "location": "SampleTest.Enterusername(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180064841,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter phonenumber as 6789",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6789",
+                  "offset": 21
+                }
+              ],
+              "location": "SampleTest.enterphonenumber(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182116723,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select pickup address as ADYAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ADYAR",
+                  "offset": 25
+                }
+              ],
+              "location": "SampleTest.enterpickup(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 430533870,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select drop address as ADYAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ADYAR",
+                  "offset": 23
+                }
+              ],
+              "location": "SampleTest.enterdropaddress(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 531434038,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select vehicle type as Sedan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sedan",
+                  "offset": 23
+                }
+              ],
+              "location": "SampleTest.entervehicletype(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107341,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "dont click book button",
+            "match": {
+              "location": "SampleTest.dontclickbutton()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sample"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "validating NTL home page with various data",
+        "description": "",
+        "id": "am-going-to-validate-ntl-home-page;validating-ntl-home-page-with-various-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 35068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleTest.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 181325,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser as FIREFOX",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FIREFOX",
+                  "offset": 16
+                }
+              ],
+              "location": "SampleTest.login(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 632230286,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter URL as http://www.ntltaxi.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.ntltaxi.com/",
+                  "offset": 13
+                }
+              ],
+              "location": "SampleTest.enterURL(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 169797305,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter username as Dinesh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dinesh",
+                  "offset": 18
+                }
+              ],
+              "location": "SampleTest.Enterusername(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172610410,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter phonenumber as 55555",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55555",
+                  "offset": 21
+                }
+              ],
+              "location": "SampleTest.enterphonenumber(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161543163,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select pickup address as ADYAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ADYAR",
+                  "offset": 25
+                }
+              ],
+              "location": "SampleTest.enterpickup(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161975947,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select drop address as ADYAR",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ADYAR",
+                  "offset": 23
+                }
+              ],
+              "location": "SampleTest.enterdropaddress(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 608102068,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select vehicle type as Sedan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sedan",
+                  "offset": 23
+                }
+              ],
+              "location": "SampleTest.entervehicletype(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144119,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "dont click book button",
+            "match": {
+              "location": "SampleTest.dontclickbutton()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sample"
+          }
+        ]
+      }
+    ],
+    "name": "am going to validate NTL home page",
+    "description": "",
+    "id": "am-going-to-validate-ntl-home-page",
+    "keyword": "Feature",
+    "uri": "home.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sample"
+      }
+    ]
+  }
+]

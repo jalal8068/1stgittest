@@ -1,0 +1,246 @@
+[
+  {
+    "source": "^select drop address as (.*)$",
+    "steps": [
+      {
+        "name": "select drop address as ADYAR",
+        "aggregatedDurations": {
+          "average": 0.310686365,
+          "median": 0.339549279
+        },
+        "durations": [
+          {
+            "duration": 0.339549279,
+            "location": "home.feature:10"
+          },
+          {
+            "duration": 0.43053387,
+            "location": "home.feature:10"
+          },
+          {
+            "duration": 0.161975947,
+            "location": "home.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^dont click book button$",
+    "steps": [
+      {
+        "name": "dont click book button",
+        "aggregatedDurations": {
+          "average": 0.000116464,
+          "median": 0.000107341
+        },
+        "durations": [
+          {
+            "duration": 0.000097932,
+            "location": "home.feature:12"
+          },
+          {
+            "duration": 0.000107341,
+            "location": "home.feature:12"
+          },
+          {
+            "duration": 0.000144119,
+            "location": "home.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter phonenumber as (.*)$",
+    "steps": [
+      {
+        "name": "enter phonenumber as 12345",
+        "aggregatedDurations": {
+          "average": 0.266042463,
+          "median": 0.266042463
+        },
+        "durations": [
+          {
+            "duration": 0.266042463,
+            "location": "home.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "enter phonenumber as 6789",
+        "aggregatedDurations": {
+          "average": 0.180064841,
+          "median": 0.180064841
+        },
+        "durations": [
+          {
+            "duration": 0.180064841,
+            "location": "home.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "enter phonenumber as 55555",
+        "aggregatedDurations": {
+          "average": 0.17261041,
+          "median": 0.17261041
+        },
+        "durations": [
+          {
+            "duration": 0.17261041,
+            "location": "home.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter username as (.*)$",
+    "steps": [
+      {
+        "name": "enter username as Jalal",
+        "aggregatedDurations": {
+          "average": 0.848138915,
+          "median": 0.848138915
+        },
+        "durations": [
+          {
+            "duration": 0.848138915,
+            "location": "home.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "enter username as Yuva",
+        "aggregatedDurations": {
+          "average": 0.194393803,
+          "median": 0.194393803
+        },
+        "durations": [
+          {
+            "duration": 0.194393803,
+            "location": "home.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "enter username as Dinesh",
+        "aggregatedDurations": {
+          "average": 0.169797305,
+          "median": 0.169797305
+        },
+        "durations": [
+          {
+            "duration": 0.169797305,
+            "location": "home.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select vehicle type as (.*)$",
+    "steps": [
+      {
+        "name": "select vehicle type as Sedan",
+        "aggregatedDurations": {
+          "average": 0.606936427,
+          "median": 0.608102068
+        },
+        "durations": [
+          {
+            "duration": 0.681273176,
+            "location": "home.feature:11"
+          },
+          {
+            "duration": 0.531434038,
+            "location": "home.feature:11"
+          },
+          {
+            "duration": 0.608102068,
+            "location": "home.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^open browser as (.*)$",
+    "steps": [
+      {
+        "name": "open browser as FIREFOX",
+        "aggregatedDurations": {
+          "average": 3.115389785,
+          "median": 0.000181325
+        },
+        "durations": [
+          {
+            "duration": 9.345827662,
+            "location": "home.feature:5"
+          },
+          {
+            "duration": 0.00016037,
+            "location": "home.feature:5"
+          },
+          {
+            "duration": 0.000181325,
+            "location": "home.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^select pickup address as (.*)$",
+    "steps": [
+      {
+        "name": "select pickup address as ADYAR",
+        "aggregatedDurations": {
+          "average": 0.176142544,
+          "median": 0.182116723
+        },
+        "durations": [
+          {
+            "duration": 0.184767747,
+            "location": "home.feature:9"
+          },
+          {
+            "duration": 0.182116723,
+            "location": "home.feature:9"
+          },
+          {
+            "duration": 0.161543163,
+            "location": "home.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter URL as (.*)$",
+    "steps": [
+      {
+        "name": "enter URL as http://www.ntltaxi.com/",
+        "aggregatedDurations": {
+          "average": 7.157037261,
+          "median": 0.632230286
+        },
+        "durations": [
+          {
+            "duration": 20.218597715,
+            "location": "home.feature:6"
+          },
+          {
+            "duration": 0.620283782,
+            "location": "home.feature:6"
+          },
+          {
+            "duration": 0.632230286,
+            "location": "home.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
